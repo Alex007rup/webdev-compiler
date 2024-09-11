@@ -12,7 +12,19 @@ export interface CompilerSliceStateType {
 
 const initialState: CompilerSliceStateType = {
   fullCode: {
-    html: "<!-- Write Your HTML Code Here -->\n",
+    html: `<!-- Write Your HTML Code Here -->
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Document</title>
+  </head>
+  <body>
+    
+  </body>
+</html>
+    `,
     css: "/* Write Your CSS Code Here */\n",
     javascript: "// Write Your JavaScript Code Here\n",
   },
