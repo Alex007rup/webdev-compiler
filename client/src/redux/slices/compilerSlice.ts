@@ -23,10 +23,14 @@ const initialState: CompilerSliceStateType = {
   <body>
     
   </body>
-</html>
-    `,
-    css: "/* Write Your CSS Code Here */\n",
-    javascript: "// Write Your JavaScript Code Here\n",
+</html>`,
+    css: `/* Write Your CSS Code Here */
+*{
+  margin: 0;
+  padding: 0;
+}`,
+    javascript: `// Write Your JavaScript Code Here
+console.log("JS is working")`,
   },
   currentLanguage: "html",
 };
