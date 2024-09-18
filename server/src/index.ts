@@ -13,7 +13,7 @@ config();
 app.use("/compiler", compilerRouter);
 
 dbConnect();
-app.listen(4000, () => {
+app.listen(process.env.PORT, () => {
   console.log("http://localhost:4000");
   console.log('Server is running on port 4000');
 })
